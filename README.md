@@ -55,7 +55,7 @@ Scheduled messages live in memory only, so they are lost when you exit.
    comment */
 
 #define {
-    #for general;                       // bot name
+    #for general;                       // label name
         #stdin;                         // you type the message
         #stdin attach_file with name "files";   // then: files /path/a.png /path/b.txt
         #webhook {
